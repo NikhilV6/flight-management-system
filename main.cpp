@@ -171,19 +171,19 @@ class registration
                 if(choice == 1){
                     charges = 30000;
                     cout<<"\nYou have successfully booked the flight DUB- 498"<<endl;
-                    cout<<"Yout can go back to menu and take the ticket"<<endl;
+                    cout<<"You can go back to menu and take the ticket"<<endl;
 
                 }
                 else if(choice1 == 2){
                     charges = 27000;
                     cout<<"\nYou have successfully booked the flight DUB- 432"<<endl;
-                    cout<<"Yout can go back to menu and take the ticket"<<endl;
+                    cout<<"You can go back to menu and take the ticket"<<endl;
 
                 }
                 else if(choice1 == 3){
                     charges = 28000;
                     cout<<"\nYou have successfully booked the flight DUB- 789"<<endl;
-                    cout<<"Yout can go back to menu and take the ticket"<<endl;
+                    cout<<"You can go back to menu and take the ticket"<<endl;
 
                 }
                 else{
@@ -220,19 +220,19 @@ class registration
                 if(choice == 1){
                     charges = 30000;
                     cout<<"\nYou have successfully booked the flight UK - 838"<<endl;
-                    cout<<"Yout can go back to menu and take the ticket"<<endl;
+                    cout<<"You can go back to menu and take the ticket"<<endl;
 
                 }
                 else if(choice1 == 2){
                     charges = 27000;
                     cout<<"\nYou have successfully booked the flight UK - 845"<<endl;
-                    cout<<"Yout can go back to menu and take the ticket"<<endl;
+                    cout<<"You can go back to menu and take the ticket"<<endl;
 
                 }
                 else if(choice1 == 3){
                     charges = 28000;
                     cout<<"\nYou have successfully booked the flight UK - 839"<<endl;
-                    cout<<"Yout can go back to menu and take the ticket"<<endl;
+                    cout<<"You can go back to menu and take the ticket"<<endl;
 
                 }
                 else{
@@ -267,19 +267,160 @@ class registration
                 if(choice == 1){
                     charges = 30000;
                     cout<<"\nYou have successfully booked the flight CA - 238"<<endl;
-                    cout<<"Yout can go back to menu and take the ticket"<<endl;
+                    cout<<"You can go back to menu and take the ticket"<<endl;
 
                 }
                 else if(choice1 == 2){
                     charges = 27000;
                     cout<<"\nYou have successfully booked the flight CA - 345"<<endl;
-                    cout<<"Yout can go back to menu and take the ticket"<<endl;
+                    cout<<"You can go back to menu and take the ticket"<<endl;
 
                 }
                 else if(choice1 == 3){
                     charges = 28000;
                     cout<<"\nYou have successfully booked the flight CA - 439"<<endl;
-                    cout<<"Yout can go back to menu and take the ticket"<<endl;
+                    cout<<"You can go back to menu and take the ticket"<<endl;
+
+                }
+                else{
+                    cout<<"Invalid input , shifting to previous menu"<<endl;
+                    flight();
+                }
+
+                cout<<"Press any key to go back to the main menu: "<<endl;
+                cin>>back;
+
+                if(back == 1)mainMenu();
+                else mainMenu();
+
+                break;
+            }
+            case 4 :
+            {
+                cout<<"________Welcome to USA Airlines________\n"<<endl;
+
+                cout<<"following are the flights \n"<<endl;
+
+                cout<<"1. USA - 548"<<endl;
+                cout<<"\t015-01-2024 4:00AM 17hrs Rs.70000"<<endl;
+                cout<<"2. USA - 945"<<endl;
+                cout<<"\t09-01-2024 10:00PM 15hrs Rs.65000"<<endl;
+                cout<<"3. USA - 467"<<endl;
+                cout<<"\t12-03-2024 11:00AM 12hrs Rs.90000"<<endl;
+
+                cout<<"\nSelect the flight you wnat to book : ";
+                cin>>choice1;
+
+                if(choice == 1){
+                    charges = 70000;
+                    cout<<"\nYou have successfully booked the flight USA - 548"<<endl;
+                    cout<<"You can go back to menu and take the ticket"<<endl;
+
+                }
+                else if(choice1 == 2){
+                    charges = 65000;
+                    cout<<"\nYou have successfully booked the flight USA - 945"<<endl;
+                    cout<<"You can go back to menu and take the ticket"<<endl;
+
+                }
+                else if(choice1 == 3){
+                    charges = 90000;
+                    cout<<"\nYou have successfully booked the flight USA - 467"<<endl;
+                    cout<<"You can go back to menu and take the ticket"<<endl;
+
+                }
+                else{
+                    cout<<"Invalid input , shifting to previous menu"<<endl;
+                    flight();
+                }
+
+                cout<<"Press any key to go back to the main menu: "<<endl;
+                cin>>back;
+
+                if(back == 1)mainMenu();
+                else mainMenu();
+
+                break;
+            }
+            case 5 :
+            {
+                cout<<"________Welcome to Australian Airlines________\n"<<endl;
+
+                cout<<"following are the flights \n"<<endl;
+
+                cout<<"1. AUS - 548"<<endl;
+                cout<<"\t015-01-2024 4:00AM 17hrs Rs.7000"<<endl;
+                cout<<"2. AUS - 945"<<endl;
+                cout<<"\t09-01-2024 10:00PM 15hrs Rs.6500"<<endl;
+                cout<<"3. AUS - 467"<<endl;
+                cout<<"\t12-03-2024 11:00AM 12hrs Rs.9000"<<endl;
+
+                cout<<"\nSelect the flight you wnat to book : ";
+                cin>>choice1;
+
+                if(choice == 1){
+                    charges = 7000;
+                    cout<<"\nYou have successfully booked the flight AUS - 548"<<endl;
+                    cout<<"You can go back to menu and take the ticket"<<endl;
+
+                }
+                else if(choice1 == 2){
+                    charges = 6500;
+                    cout<<"\nYou have successfully booked the flight AUS - 945"<<endl;
+                    cout<<"You can go back to menu and take the ticket"<<endl;
+
+                }
+                else if(choice1 == 3){
+                    charges = 9000;
+                    cout<<"\nYou have successfully booked the flight AUS - 467"<<endl;
+                    cout<<"You can go back to menu and take the ticket"<<endl;
+
+                }
+                else{
+                    cout<<"Invalid input , shifting to previous menu"<<endl;
+                    flight();
+                }
+
+                cout<<"Press any key to go back to the main menu: "<<endl;
+                cin>>back;
+
+                if(back == 1)mainMenu();
+                else mainMenu();
+
+                break;
+            }
+            case 6 :
+            {
+                cout<<"________Welcome to European Airlines________\n"<<endl;
+
+                cout<<"following are the flights \n"<<endl;
+
+                cout<<"1. EU - 548"<<endl;
+                cout<<"\t015-01-2024 4:00AM 17hrs Rs.70000"<<endl;
+                cout<<"2. EU - 945"<<endl;
+                cout<<"\t09-01-2024 10:00PM 15hrs Rs.65000"<<endl;
+                cout<<"3. EU - 467"<<endl;
+                cout<<"\t12-03-2024 11:00AM 12hrs Rs.90000"<<endl;
+
+                cout<<"\nSelect the flight you wnat to book : ";
+                cin>>choice1;
+
+                if(choice == 1){
+                    charges = 70000;
+                    cout<<"\nYou have successfully booked the flight EU - 548"<<endl;
+                    cout<<"You can go back to menu and take the ticket"<<endl;
+
+                }
+                else if(choice1 == 2){
+                    charges = 65000;
+                    cout<<"\nYou have successfully booked the flight EU - 945"<<endl;
+                    cout<<"You can go back to menu and take the ticket"<<endl;
+
+                }
+                else if(choice1 == 3){
+                    charges = 90000;
+                    cout<<"\nYou have successfully booked the flight EU - 467"<<endl;
+                    cout<<"You can go back to menu and take the ticket"<<endl;
 
                 }
                 else{
@@ -296,6 +437,8 @@ class registration
                 break;
             }
             default:
+                cout<<"invalid Input , Shifting to the main menu"<<endl;
+                mainMenu();
                 break;
             }
         }
