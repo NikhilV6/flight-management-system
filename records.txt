@@ -1,0 +1,10 @@
+___________XYZ Airlines_______
+___________Ticket_____________
+______________________________
+Customer ID: 34
+Customer Name: dfs
+Customer Gender: m
+	Description
+
+Destination		Canada
+Flight cost :		28000
